@@ -4,7 +4,7 @@
 โค้ดมี 3 ส่วน
 1. [นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation_th.md#1-นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ)
 2. [นิยามฟังก์ชันที่ใช้อ่าน directory listing และโหลดไฟล์ตามผลอ่าน](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation_th.md#2-นิยามฟังก์ชันที่ใช้อ่าน-directory-listing-และโหลดไฟล์ตามผลอ่าน)
-3. [สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร]()
+3. [สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation_th.md#3-สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร-ตัวอย่าง)
 
 ### 0. imports
 ```python
