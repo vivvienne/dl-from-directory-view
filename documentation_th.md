@@ -17,7 +17,7 @@ import errno
 ```
 
 ### 1. นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ
-ฟังก์ชัน `mkdir_p(path)` และ `safe_open(path, mode, encoding='')` ต่อไปนี้ใช้สร้างโฟลเดอร์ย่อยสำหรับบันทึกไฟล์ที่โหลดมาลงเครื่อง โค้ดนี้ดัดแปลงจาก[ที่นี่](https://stackoverflow.com/questions/23793987/write-file-to-a-directory-that-doesnt-exist).
+ฟังก์ชัน `mkdir_p(path)` และ `safe_open(path, mode, encoding='')` ต่อไปนี้ใช้สร้างไฟล์และโฟลเดอร์ย่อยอย่างปลอดภัยเวลาจะบันทึกไฟล์ที่โหลดมาลงเครื่อง โค้ดนี้ดัดแปลงจาก[ที่นี่](https://stackoverflow.com/questions/23793987/write-file-to-a-directory-that-doesnt-exist).
 
 ```python
 # ฟังก์ชันสำหรับสร้างโฟลเดอร์ย่อยเมื่อจำเป็น เวลาจะบันทึกไฟล์ที่โหลดมา

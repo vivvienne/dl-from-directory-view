@@ -17,7 +17,7 @@ import errno
 ```
 
 ### 1. Predefined functions for downloading individual files
-The following functions `mkdir_p(path)` and `safe_open(path, mode, encoding='')` are for safely creating subdirectories during the saving to disk process. The code is adapted from [here](https://stackoverflow.com/questions/23793987/write-file-to-a-directory-that-doesnt-exist).
+The following functions `mkdir_p(path)` and `safe_open(path, mode, encoding='')` are for safely creating files and folders when saving to disk. The code is adapted from [here](https://stackoverflow.com/questions/23793987/write-file-to-a-directory-that-doesnt-exist).
 
 ```python
 # defs for safely creating subfolders as needed when saving files to disk
