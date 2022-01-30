@@ -2,9 +2,9 @@
 (หน้านี้เป็น[ภาษาไทย](documentation_th.md))
 
 The code consists of three parts
-1. Predefined functions for downloading individual files
-2. Predefined function for parsing directory listings and downloading accordingly
-3. Script specifying what and how to download (provided by the user)
+1. [Predefined functions for downloading individual files](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation.md#1-predefined-functions-for-downloading-individual-files)
+2. [Predefined function for parsing directory listings and downloading accordingly](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation.md#1-predefined-functions-for-downloading-individual-files)
+3. [Script specifying what and how to download (provided by the user)](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation.md#3-script-specifying-what-and-how-to-download-example)
 
 ### 0. Imports
 ```python

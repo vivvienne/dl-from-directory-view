@@ -1,10 +1,10 @@
-# documentation
+# Documentation
 (This page in [English](documentation.md).)
 
 โค้ดมี 3 ส่วน
-1. นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ
-2. นิยามฟังก์ชันที่ใช้อ่าน directory listing และโหลดไฟล์ตามผลอ่าน
-3. สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร
+1. [นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation_th.md#1-นิยามฟังก์ชันที่ใช้โหลดไฟล์เดี่ยวๆ)
+2. [นิยามฟังก์ชันที่ใช้อ่าน directory listing และโหลดไฟล์ตามผลอ่าน](https://github.com/vivvienne/dl-from-directory-view/blob/main/documentation_th.md#2-นิยามฟังก์ชันที่ใช้อ่าน-directory-listing-และโหลดไฟล์ตามผลอ่าน)
+3. [สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร]()
 
 ### 0. imports
 ```python
@@ -77,7 +77,7 @@ def dl_folder(url):
 			dl_file(url+item.a['href'], folder_path+item.a['href'])
 ```
 
-### สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร (ตัวอย่าง)
+### 3. สคริปของผู้ใช้ที่ระบุว่าจะโหลดอะไรอย่างไร (ตัวอย่าง)
 ```python
 url = ...
 dl_folder(url)
